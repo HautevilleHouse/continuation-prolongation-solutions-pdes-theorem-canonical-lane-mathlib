@@ -1,0 +1,9 @@
+import continuation_prolongation_solutions_pdes_theorem_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace continuation_prolongation_solutions_pdes_theorem_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end continuation_prolongation_solutions_pdes_theorem_canonical_lane_mathlib
+end HautevilleHouse
